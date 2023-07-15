@@ -1,0 +1,41 @@
+@media (max-width:768px){
+
+    .wrap{max-width:100%;padding-left:0;}
+    .wrap .left-nav{position:fixed;top:0;left:0;padding:4rem;width:100%;height:5rem;background:#adbad9;}
+    .wrap .left-nav .nav-area{display:flex;flex-direction:row;}
+    .wrap .left-nav .nav-text{transform:rotate(0);}
+    .wrap .ham-btn{position:fixed;top:3.5%;left:50%;transform:translateX(-50%) rotate(90deg);}
+    .wrap .menu-area{width:100%;height:auto;transform:translate(0, -62rem);}
+    .wrap .menu-area.open{transform:translateY(0);}
+    .wrap .menu-area.close{transform:translateY(-62rem);}
+    .wrap .menu-area .menu{padding-top:10rem;width:100%;}
+    .wrap .menu-area .menu > li{font-size:3.5rem;}
+    .wrap .menu-area .menu > li::before{display:none;}
+    /* menu hover 시 before 색상 삭제할 것 */
+
+    .wrap .section-1 .main-top-area .left-tit{margin-top:3rem;font-size:3rem;}
+    .wrap .section-1 .main-top-area .left-tit::before{width:14rem;}
+    .wrap .section-1 .main-top-area .top-nav{display:none;}
+    .wrap .section-1 .main-tit{display:none;}
+    .wrap .section-1 .main-mo-tit{font-size:4.5rem;font-weight:900;color:#fff;}
+    
+    /* section-1 end */
+
+    .wrap .section-2{height:100vh;}
+    .wrap .section-2 .container{flex-direction:column;padding:6rem 0;}
+    .wrap .section-2 .overview-tit > span{font-size:3rem;}
+    .wrap .section-2 .overview-tit .img-area{width:25rem;height:30rem;margin:2.4rem 0 3rem;background-position-y:top;background-size:25rem;}
+    .wrap .section-2 .overview-text .text-tit{margin-bottom:3rem;font-size:1.8rem;}
+    .wrap .section-2 .overview-text .text-cont{display:none;}
+    .wrap .section-2 .overview-text .text-mo-cont{font-size:1.3rem;}
+    .wrap .section-2 .overview-text p{margin-bottom:0;line-height:2rem;}
+    .wrap .section-2 .overview-text .text-mo-cont .text-margin{margin:2rem 0;}
+    .wrap .section-2 .overview-text .skill-tag{display:none;}
+
+    /* section-2 end */
+
+    .wrap .section-3 .work-tit.website{font-size:4.5rem;}
+
+
+
+}
